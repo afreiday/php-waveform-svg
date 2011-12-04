@@ -1,0 +1,16 @@
+/**
+ * RECT FOR BACKGROUND COLOUR
+ */
+
+rect {
+  fill: rgb(255,0,0);
+}
+
+/**
+ * WAVEFORM LINE COLOUR
+ */
+
+line {
+  stroke: rgb(0,0,0);
+  stroke-width: 1px;
+}
