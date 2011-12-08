@@ -11,17 +11,21 @@ Based on the [PHP MP3 Waveform Generator](https://github.com/afreiday/php-wavefo
 
 ### Requirements
 
-	- PHP 5+
-	- LAME MP3 Encoder (Windows build available from http://www.rarewares.org/mp3-lame-bundle.php)
-	- Web server (Apache, etc -- unless modified to run as a command line script)
+- PHP 5+
+- LAME MP3 Encoder (Windows build available from http://www.rarewares.org/mp3-lame-bundle.php)
+- Web server (Apache, etc -- unless modified to run as a command line script)
 
 ### Usage/Installation
 
-	- Copy to a location on your web server
-	- Ensure that the 'lame' command is accessible and executable from that directory (for Windows systems, place the downloaded .exe and .dll as linked above into that same directory, or modify the script)
-	- Ensure the directory support write persmissions, or specify an alternate temporary output directory that does
-	- Launch the script in your browser (e.g. http://localhost/php-waveform-svg.php) and upload your MP3
-	- Modify waveform.css to change the display colours/properties of your SVG waveform
+- Copy to a location on your web server
+- Ensure that the 'lame' command is accessible and executable from that directory (for Windows systems, place the downloaded .exe and .dll as linked above into that same directory, or modify the script)
+- Ensure the directory support write persmissions, or specify an alternate temporary output directory that does
+- Launch the script in your browser (e.g. http://localhost/php-waveform-svg.php) and upload your MP3
+- Modify waveform.css to change the display colours/properties of your SVG waveform
+
+### Image generation options
+
+- The "stereo waveform" option allows you to generate a single SVG image with both left and right audio channels separately
 
 ### Other notes
 
