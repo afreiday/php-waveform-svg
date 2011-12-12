@@ -21,19 +21,6 @@
     return ($byte1 + ($byte2*256));
   }
   
-  /**
-   * Great function slightly modified as posted by Minux at
-   * http://forums.clantemplates.com/showthread.php?t=133805
-   */
-  function html2rgb($input) {
-    $input=($input[0]=="#")?substr($input, 1,6):substr($input, 0,6);
-    return array(
-     hexdec(substr($input, 0, 2)),
-     hexdec(substr($input, 2, 2)),
-     hexdec(substr($input, 4, 2))
-    );
-  }   
-  
   if (isset($_FILES["mp3"])) {
   
     /**
